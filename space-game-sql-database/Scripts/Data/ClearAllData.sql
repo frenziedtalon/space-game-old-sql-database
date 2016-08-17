@@ -1,0 +1,5 @@
+﻿DELETE FROM [dbo].[CelestialObject]
+DELETE FROM [dbo].[CelestialObjectType]
+DELETE FROM [dbo].[SolarSystem]
+DELETE FROM [dbo].[Universe]
+DELETE FROM [dbo].[Users]
