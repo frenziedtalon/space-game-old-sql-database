@@ -67,6 +67,7 @@
     <Folder Include="Scripts\Post-Deployment" />
     <Folder Include="Scripts\Pre-Deployment" />
     <Folder Include="Scripts\Data" />
+    <Folder Include="Scripts\Users" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Users.sql" />
@@ -91,5 +92,6 @@
   <ItemGroup>
     <None Include="Scripts\Data\Data.CelestialObject.sql" />
     <None Include="Scripts\Data\ClearAllData.sql" />
+    <None Include="Scripts\Users\CreateNewUser.sql" />
   </ItemGroup>
 </Project>
