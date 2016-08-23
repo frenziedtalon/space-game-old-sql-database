@@ -19,7 +19,7 @@ INSERT [dbo].[CelestialObject] ([Id], [Name], [SolarSystemId], [Mass], [Radius],
 GO
 INSERT [dbo].[CelestialObject] ([Id], [Name], [SolarSystemId], [Mass], [Radius], [Texture], [TypeId], [PrimaryId], [SemiMajorAxis], [Eccentricity], [Inclination], [ArgumentOfPeriapsis], [LongitudeOfAscendingNode], [MeanAnomalyZero]) VALUES (9, N'Neptune', 1, 1.0274592E+26, 24622, N'neptune.jpg', 2, 1, 4498252910.49344, 0.008606, 1.77, 272.8461, 131.7806, 260.2471)
 GO
-INSERT [dbo].[CelestialObject] ([Id], [Name], [SolarSystemId], [Mass], [Radius], [Texture], [TypeId], [PrimaryId], [SemiMajorAxis], [Eccentricity], [Inclination], [ArgumentOfPeriapsis], [LongitudeOfAscendingNode], [MeanAnomalyZero]) VALUES (10, N'Pluto', 1, 1.314192E+22, 1186, N'pluto.jpg', 2, 1, 5906376272.08103, 0.24883, 0.29914960832, 1.98548656, 1.9250982, 0)
+INSERT [dbo].[CelestialObject] ([Id], [Name], [SolarSystemId], [Mass], [Radius], [Texture], [TypeId], [PrimaryId], [SemiMajorAxis], [Eccentricity], [Inclination], [ArgumentOfPeriapsis], [LongitudeOfAscendingNode], [MeanAnomalyZero]) VALUES (10, N'Pluto', 1, 1.314192E+22, 1186, N'pluto.jpg', 2, 1, 5906376272.08103, 0.24905, 17.1405, 113.834, 110.299, 14.53)
 GO
 INSERT [dbo].[CelestialObject] ([Id], [Name], [SolarSystemId], [Mass], [Radius], [Texture], [TypeId], [PrimaryId], [SemiMajorAxis], [Eccentricity], [Inclination], [ArgumentOfPeriapsis], [LongitudeOfAscendingNode], [MeanAnomalyZero]) VALUES (11, N'Moon', 1, 7.347528E+22, 1737, N'moon.png', 3, 4, 384747.999061533, 0.0549, 5.1454, 318.0634, 125.1228, 115.3654)
 GO
