@@ -97,5 +97,9 @@
     <None Include="Scripts\Data\Data.CelestialObject.sql" />
     <None Include="Scripts\Data\ClearAllData.sql" />
     <None Include="Scripts\Users\CreateNewUser.sql" />
+    <None Include="Scripts\Data\Data.TextureType.sql" />
+    <None Include="Scripts\Data\Data.TexturePath.sql" />
+    <None Include="Scripts\Data\Data.Texture.sql" />
+    <None Include="Scripts\Data\Data.TextureGroup.sql" />
   </ItemGroup>
 </Project>
