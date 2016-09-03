@@ -13,9 +13,19 @@ Post-Deployment Script Template
 
 :r .\..\Data\ClearAllData.sql
 
+-- Users
 :r .\..\Data\Data.Users.sql
 
+-- Universe data
 :r .\..\Data\Data.Universe.sql
 :r .\..\Data\Data.SolarSystem.sql
 :r .\..\Data\Data.CelestialObjectType.sql
+
+-- Textures
+:r .\..\Data\Data.TextureType.sql
+:r .\..\Data\Data.TexturePath.sql
+:r .\..\Data\Data.Texture.sql
+:r .\..\Data\Data.TextureGroup.sql
+
+-- Universe objects
 :r .\..\Data\Data.CelestialObject.sql
