@@ -82,6 +82,10 @@
     <None Include="Scripts\Data\Data.Universe.sql" />
     <None Include="Scripts\Data\Data.SolarSystem.sql" />
     <None Include="Scripts\Data\Data.CelestialObjectType.sql" />
+    <Build Include="dbo\Tables\TextureType.sql" />
+    <Build Include="dbo\Tables\TexturePath.sql" />
+    <Build Include="dbo\Tables\TextureGroup.sql" />
+    <Build Include="dbo\Tables\Texture.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Post-Deployment\Script.PostDeployment.sql" />
