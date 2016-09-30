@@ -13,7 +13,7 @@
     [ArgumentOfPeriapsis]      FLOAT (53)    NULL,
     [LongitudeOfAscendingNode] FLOAT (53)    NULL,
     [MeanAnomalyZero]          FLOAT (53)    NULL,
-    CONSTRAINT [PK_CelestialObject] PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [PK_CelestialObjects] PRIMARY KEY CLUSTERED ([Id] ASC),
     CONSTRAINT [FK_CelestialObject_CelestialObjectType] FOREIGN KEY ([TypeId]) REFERENCES [dbo].[CelestialObjectType] ([Id]),
     CONSTRAINT [FK_CelestialObject_Primary] FOREIGN KEY ([PrimaryId]) REFERENCES [dbo].[CelestialObject] ([Id]),
     CONSTRAINT [FK_CelestialObject_SolarSystem] FOREIGN KEY ([SolarSystemId]) REFERENCES [dbo].[SolarSystem] ([Id]),
@@ -21,4 +21,26 @@
 );
 
 
+
+
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_FK_CelestialObject_TextureGroup]
+    ON [dbo].[CelestialObject]([TextureGroupId] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_FK_CelestialObject_SolarSystem]
+    ON [dbo].[CelestialObject]([SolarSystemId] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_FK_CelestialObject_Primary]
+    ON [dbo].[CelestialObject]([PrimaryId] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_FK_CelestialObject_CelestialObjectType]
+    ON [dbo].[CelestialObject]([TypeId] ASC);
 

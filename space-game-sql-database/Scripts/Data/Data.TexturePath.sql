@@ -1,5 +1,6 @@
 ﻿SET IDENTITY_INSERT [dbo].[TexturePath] ON 
 GO
+
 INSERT [dbo].[TexturePath] ([Id], [Path]) VALUES (1, N'Star/Low/')
 GO
 INSERT [dbo].[TexturePath] ([Id], [Path]) VALUES (2, N'Planet/Low/')
@@ -16,5 +17,6 @@ INSERT [dbo].[TexturePath] ([Id], [Path]) VALUES (7, N'Star/Medium/')
 GO
 INSERT [dbo].[TexturePath] ([Id], [Path]) VALUES (8, N'Planet/Medium/')
 GO
+
 SET IDENTITY_INSERT [dbo].[TexturePath] OFF
 GO
