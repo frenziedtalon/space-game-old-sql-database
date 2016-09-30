@@ -2,6 +2,7 @@
 DELETE FROM [dbo].[CelestialObject]
 
 -- Textures
+DELETE FROM [dbo].[TextureGroupToTexture]
 DELETE FROM [dbo].[TextureGroup]
 DELETE FROM [dbo].[Texture]
 DELETE FROM [dbo].[TexturePath]

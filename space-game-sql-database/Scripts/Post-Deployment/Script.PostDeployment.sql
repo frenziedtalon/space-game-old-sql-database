@@ -26,9 +26,11 @@ Post-Deployment Script Template
 :r .\..\Data\Data.TexturePath.sql
 :r .\..\Data\Data.Texture.sql
 :r .\..\Data\Data.TextureGroup.sql
+:r .\..\Data\Data.TextureGroupToTexture.sql
 
 -- Universe objects
 :r .\..\Data\Data.CelestialObject.sql
+
 -- App Pool user
 :r .\..\Users\CreateLogin.sql
 :r .\..\Users\CreateUser.sql
