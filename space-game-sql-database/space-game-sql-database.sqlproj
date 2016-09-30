@@ -75,9 +75,7 @@
     <Build Include="dbo\Tables\SolarSystem.sql" />
     <Build Include="dbo\Tables\CelestialObjectType.sql" />
     <Build Include="dbo\Tables\CelestialObject.sql" />
-    <Build Include="Security\DefaultAppPool.sql" />
     <Build Include="Security\IIS APPPOOL_DefaultAppPool.sql" />
-    <Build Include="Security\DefaultAppPool_1.sql" />
     <None Include="Scripts\Data\Data.Users.sql" />
     <None Include="Scripts\Data\Data.Universe.sql" />
     <None Include="Scripts\Data\Data.SolarSystem.sql" />
@@ -96,10 +94,12 @@
   <ItemGroup>
     <None Include="Scripts\Data\Data.CelestialObject.sql" />
     <None Include="Scripts\Data\ClearAllData.sql" />
-    <None Include="Scripts\Users\CreateNewUser.sql" />
+    <None Include="Scripts\Users\CreateUser.sql" />
     <None Include="Scripts\Data\Data.TextureType.sql" />
     <None Include="Scripts\Data\Data.TexturePath.sql" />
     <None Include="Scripts\Data\Data.Texture.sql" />
     <None Include="Scripts\Data\Data.TextureGroup.sql" />
+    <None Include="Scripts\Users\CreateLogin.sql" />
+    <None Include="Scripts\Users\PermissionUser.sql" />
   </ItemGroup>
 </Project>
