@@ -10,3 +10,15 @@
     CONSTRAINT [FK_Users_ModifiedBy] FOREIGN KEY ([ModifiedBy]) REFERENCES [dbo].[Users] ([Id])
 );
 
+
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_FK_Users_ModifiedBy]
+    ON [dbo].[Users]([ModifiedBy] ASC);
+
+
+GO
+CREATE NONCLUSTERED INDEX [IX_FK_Users_CreatedBy]
+    ON [dbo].[Users]([CreatedBy] ASC);
+
