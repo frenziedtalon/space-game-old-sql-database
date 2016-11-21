@@ -22,6 +22,7 @@ Post-Deployment Script Template
 :r .\..\Data\Data.CelestialObjectType.sql
 
 -- Textures
+:r .\..\Data\Data.TextureQuality.sql
 :r .\..\Data\Data.TextureType.sql
 :r .\..\Data\Data.TexturePath.sql
 :r .\..\Data\Data.Texture.sql

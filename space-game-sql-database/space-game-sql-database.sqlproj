@@ -85,6 +85,7 @@
     <Build Include="dbo\Tables\TextureGroup.sql" />
     <Build Include="dbo\Tables\Texture.sql" />
     <Build Include="dbo\Tables\TextureGroupToTexture.sql" />
+    <Build Include="dbo\Tables\TextureQuality.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Post-Deployment\Script.PostDeployment.sql" />
@@ -97,6 +98,7 @@
     <None Include="Scripts\Data\ClearAllData.sql" />
     <None Include="Scripts\Users\CreateUser.sql" />
     <None Include="Scripts\Data\Data.TextureType.sql" />
+    <None Include="Scripts\Data\Data.TextureQuality.sql" />
     <None Include="Scripts\Data\Data.TexturePath.sql" />
     <None Include="Scripts\Data\Data.Texture.sql" />
     <None Include="Scripts\Data\Data.TextureGroup.sql" />
