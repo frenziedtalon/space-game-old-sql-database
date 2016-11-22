@@ -11,5 +11,7 @@ INSERT [dbo].[TextureType] ([Id], [Type]) VALUES (4, N'Specular')
 GO
 INSERT [dbo].[TextureType] ([Id], [Type]) VALUES (5, N'Opacity')
 GO
+INSERT [dbo].[TextureType] ([Id], [Type]) VALUES (6, N'Clouds')
+GO
 SET IDENTITY_INSERT [dbo].[TextureType] OFF
 GO

@@ -53,5 +53,13 @@ INSERT [dbo].[Texture] ([Id], [Name], [PathId], [TypeId], [QualityId]) VALUES (2
 GO
 INSERT [dbo].[Texture] ([Id], [Name], [PathId], [TypeId], [QualityId]) VALUES (26, N'venus.jpg', 8, 1, 2)
 GO
+INSERT [dbo].[Texture] ([Id], [Name], [PathId], [TypeId], [QualityId]) VALUES (29, N'earth_night.jpg', 3, 2, 3)
+GO
+INSERT [dbo].[Texture] ([Id], [Name], [PathId], [TypeId], [QualityId]) VALUES (30, N'earth_bump.png', 8, 3, 2)
+GO
+INSERT [dbo].[Texture] ([Id], [Name], [PathId], [TypeId], [QualityId]) VALUES (31, N'earth_specular.jpg', 2, 4, 1)
+GO
+INSERT [dbo].[Texture] ([Id], [Name], [PathId], [TypeId], [QualityId]) VALUES (32, N'earth_clouds.jpg', 8, 6, 2)
+GO
 SET IDENTITY_INSERT [dbo].[Texture] OFF
 GO
