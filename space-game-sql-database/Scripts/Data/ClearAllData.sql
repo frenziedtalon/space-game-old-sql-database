@@ -7,6 +7,7 @@ DELETE FROM [dbo].[TextureGroup]
 DELETE FROM [dbo].[Texture]
 DELETE FROM [dbo].[TexturePath]
 DELETE FROM [dbo].[TextureType]
+DELETE FROM [dbo].[TextureQuality]
 
 -- Universe data
 DELETE FROM [dbo].[CelestialObjectType]

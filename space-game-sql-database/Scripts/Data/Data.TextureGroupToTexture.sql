@@ -54,5 +54,13 @@ GO
 INSERT [dbo].[TextureGroupToTexture] ([Id], [GroupId], [TextureId]) VALUES (27, 3, 4)
 GO
 
+INSERT [dbo].[TextureGroupToTexture] ([Id], [GroupId], [TextureId]) VALUES (28, 4, 29)
+GO
+INSERT [dbo].[TextureGroupToTexture] ([Id], [GroupId], [TextureId]) VALUES (29, 4, 30)
+GO
+INSERT [dbo].[TextureGroupToTexture] ([Id], [GroupId], [TextureId]) VALUES (30, 4, 31)
+GO
+INSERT [dbo].[TextureGroupToTexture] ([Id], [GroupId], [TextureId]) VALUES (31, 4, 32)
+GO
 SET IDENTITY_INSERT [dbo].[TextureGroupToTexture] OFF
 GO
