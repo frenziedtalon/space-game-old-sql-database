@@ -1,6 +1,9 @@
 ﻿-- Universe objects
 DELETE FROM [dbo].[CelestialObject]
 
+-- Universe object attributes
+DELETE FROM [dbo].[RingSystem]
+
 -- Textures
 DELETE FROM [dbo].[TextureGroupToTexture]
 DELETE FROM [dbo].[TextureGroup]
