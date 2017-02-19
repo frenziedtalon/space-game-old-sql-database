@@ -65,5 +65,9 @@ INSERT [dbo].[Texture] ([Id], [Name], [PathId], [TypeId], [QualityId]) VALUES (3
 GO
 INSERT [dbo].[Texture] ([Id], [Name], [PathId], [TypeId], [QualityId]) VALUES (37, N'jupiter-rings-diffuse.png', 9, 1, 1)
 GO
+INSERT [dbo].[Texture] ([Id], [Name], [PathId], [TypeId], [QualityId]) VALUES (39, N'neptune-rings.png', 9, 1, 1)
+GO
+INSERT [dbo].[Texture] ([Id], [Name], [PathId], [TypeId], [QualityId]) VALUES (40, N'uranus-rings.png', 9, 1, 1)
+GO
 SET IDENTITY_INSERT [dbo].[Texture] OFF
 GO

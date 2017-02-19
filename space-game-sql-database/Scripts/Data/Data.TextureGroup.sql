@@ -27,5 +27,9 @@ INSERT [dbo].[TextureGroup] ([Id], [Name]) VALUES (12, N'SaturnRings')
 GO
 INSERT [dbo].[TextureGroup] ([Id], [Name]) VALUES (13, N'JupiterRings')
 GO
+INSERT [dbo].[TextureGroup] ([Id], [Name]) VALUES (14, N'NeptuneRings')
+GO
+INSERT [dbo].[TextureGroup] ([Id], [Name]) VALUES (15, N'UranusRings')
+GO
 SET IDENTITY_INSERT [dbo].[TextureGroup] OFF
 GO
