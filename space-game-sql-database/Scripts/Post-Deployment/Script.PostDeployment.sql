@@ -29,6 +29,9 @@ Post-Deployment Script Template
 :r .\..\Data\Data.TextureGroup.sql
 :r .\..\Data\Data.TextureGroupToTexture.sql
 
+-- Universe objects attributes
+:r .\..\Data\Data.RingSystem.sql
+
 -- Universe objects
 :r .\..\Data\Data.CelestialObject.sql
 

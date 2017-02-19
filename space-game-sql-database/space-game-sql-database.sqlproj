@@ -86,6 +86,7 @@
     <Build Include="dbo\Tables\Texture.sql" />
     <Build Include="dbo\Tables\TextureGroupToTexture.sql" />
     <Build Include="dbo\Tables\TextureQuality.sql" />
+    <Build Include="dbo\Tables\RingSystem.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Post-Deployment\Script.PostDeployment.sql" />
@@ -105,5 +106,6 @@
     <None Include="Scripts\Data\Data.TextureGroupToTexture.sql" />
     <None Include="Scripts\Users\CreateLogin.sql" />
     <None Include="Scripts\Users\PermissionUser.sql" />
+    <None Include="Scripts\Data\Data.RingSystem.sql" />
   </ItemGroup>
 </Project>

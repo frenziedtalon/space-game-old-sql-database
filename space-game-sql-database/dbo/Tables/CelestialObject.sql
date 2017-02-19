@@ -13,9 +13,11 @@
     [ArgumentOfPeriapsis]      FLOAT (53)    NULL,
     [LongitudeOfAscendingNode] FLOAT (53)    NULL,
     [MeanAnomalyZero]          FLOAT (53)    NULL,
+    [RingSystemId]             INT           NULL,
     CONSTRAINT [PK_CelestialObjects] PRIMARY KEY CLUSTERED ([Id] ASC),
     CONSTRAINT [FK_CelestialObject_CelestialObjectType] FOREIGN KEY ([TypeId]) REFERENCES [dbo].[CelestialObjectType] ([Id]),
     CONSTRAINT [FK_CelestialObject_Primary] FOREIGN KEY ([PrimaryId]) REFERENCES [dbo].[CelestialObject] ([Id]),
+    CONSTRAINT [FK_CelestialObject_RingSystem] FOREIGN KEY ([RingSystemId]) REFERENCES [dbo].[RingSystem] ([Id]),
     CONSTRAINT [FK_CelestialObject_SolarSystem] FOREIGN KEY ([SolarSystemId]) REFERENCES [dbo].[SolarSystem] ([Id]),
     CONSTRAINT [FK_CelestialObject_TextureGroup] FOREIGN KEY ([TextureGroupId]) REFERENCES [dbo].[TextureGroup] ([Id])
 );
