@@ -10,7 +10,6 @@ Post-Deployment Script Template
 --------------------------------------------------------------------------------------
 */
 
-
 :r .\..\Data\ClearAllData.sql
 
 -- Users
@@ -34,8 +33,3 @@ Post-Deployment Script Template
 
 -- Universe objects
 :r .\..\Data\Data.CelestialObject.sql
-
--- App Pool user
-:r .\..\Users\CreateLogin.sql
-:r .\..\Users\CreateUser.sql
-:r .\..\Users\PermissionUser.sql
