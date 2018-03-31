@@ -103,6 +103,7 @@
     <None Include="Scripts\Data\Data.TextureGroup.sql" />
     <None Include="Scripts\Data\Data.TextureGroupToTexture.sql" />
     <None Include="Scripts\Data\Data.RingSystem.sql" />
+    <None Include="database.nuspec" />
   </ItemGroup>
   <Import Project="$(SolutionDir)packages\OctoPack.3.5.2\build\OctoPack.targets" Condition="Exists('$(SolutionDir)\packages\OctoPack.3.5.2\build\OctoPack.targets')" />
   <Import Project="$(SolutionDir)packages\OctoPack.3.5.2\build\OctoPack.targets" />
